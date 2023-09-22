@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+  font-style: normal;
+}
+
+.wrapper2 {
+  /* max-width: 360px;  */
+  /* width: 100%;  */
+  width: 360px;
+  min-width: 300px;
+  margin: 30px auto;
+  grid-area: c;
+}
+
+.main {
+  /* align-items: left ; */
+  display: flex;
+  flex-direction: column;
+  padding: 37px 15px 34px 30px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.block {
+  margin-bottom: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.account {
+  color: #666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.state {
+  color: #35c572;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 22px;
+}
+
+.main_title {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.title {
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.text {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.button {
+  /* margin-top: 4px; */
+  width: 250px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 1px solid #2257c7;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.change_tarif {
+  margin-top: 30px;
+}
+
+/* стили для popup */
+
+
+.stopTarif__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.stopTarif__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 341px;
+  margin-bottom: 20px;
+}
+
+.button__cancel {
+  width: 145px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #2257c7;
+  color: #2257c7;
+  background-color: #fff;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.button__off {
+  width: 145px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #2257c7;
+  color: #fff;
+  background-color: #2257c7;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .wrapper2 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper2 {
+    width: 620px;
+  }
+
+  .block2 {
+    display: flex;
+    gap: 50px;
+  }
+
+  .change_tarif {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .stopTarif__title,.stopTarif__text
+   {
+    width: 280px;
+}
+  .button__cancel {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper2 {
+    width: 460px;
+  }
+
+  .block2 {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wrapper2 {
+    width: 300px;
+  }
+}

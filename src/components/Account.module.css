@@ -1,0 +1,144 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+  font-style: normal;
+}
+
+.wrapper1 {
+  /* max-width: 360px;  */
+  /* width: 100%;  */
+  width: 360px; 
+  min-width: 300px;
+  margin: 30px auto;
+  grid-area: a;
+}
+
+
+
+.main {
+  padding: 37px 15px 12px 30px;
+  border-radius: 8px;
+  border: 1px solid #EAEAEA;
+  background: #FFF;
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.20);
+  text-align: left;
+}
+
+.block {
+  margin-bottom:22px;
+}
+
+.block2 {
+  /* display: flex; */
+}
+
+
+.header { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+
+.account {
+  color: #666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.state {
+  color: #35C572;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.number_of_customer {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title {
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 5px;
+}
+
+.text {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px; 
+  max-width: 316px;
+
+} 
+
+@media (max-width: 1000px) {
+
+  .wrapper1 {
+    width: 300px; 
+  }
+
+  .block {
+    margin-bottom:16px;
+  }
+
+  .text {
+    max-width: 248px;
+  
+  } 
+}
+
+@media (max-width: 700px) {
+
+  .wrapper1 {
+    width: 620px; 
+  }
+
+  .block {
+    margin-bottom:25px;
+  }
+
+  .text {
+    width: 248px;
+  } 
+
+  .abc {
+    width: 248px;
+  }
+
+  .block2 {
+    display: flex;
+    gap: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .wrapper1 {
+    width: 460px; 
+  }
+
+  .block2 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  .wrapper1 {
+    width: 300px; 
+  }
+
+
+}
+  
+
+
+
+
+

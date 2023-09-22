@@ -1,0 +1,211 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 760px;
+  margin: 30px auto;
+  grid-area: d;
+}
+
+.main {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  padding: 37px 15px 0px 30px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.block {
+  max-width: 316px;
+}
+
+.display {
+  display: flex;
+  margin-top: 1px;
+  gap: 86px;
+}
+
+.mainTitle {
+  color: #666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.column1 {
+  margin-top: 15px;
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 316px;
+}
+
+.block {
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 15px;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.column2 {
+  max-width: 176px;
+  margin-top: 15px;
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+img {
+  width: 21px;
+  margin-right: 16px;
+}
+
+.bottom {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 186px;
+  margin-top: 30px;
+}
+
+.column22 {
+  width: 224px;
+  margin-top: 52px;
+}
+
+.mt {
+  margin-top: 15px;
+  width: 213px;
+}
+
+/* стили для popup. Заявка в поддержку */
+
+.Application__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Application__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 341px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 320px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #999;
+  font-size: 48px;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.button__send {
+  width: 180px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #2257c7;
+  color: #fff;
+  background-color: #2257c7;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 620px;
+  }
+
+  .display {
+    gap: 66px;
+  }
+
+  .column1 {
+    width: 255px;
+  }
+
+  .block {
+    margin-top: 21px;
+  }
+}
+
+@media (max-width: 700px) {
+  .column1 {
+    width: 255px;
+  }
+
+  .bottom {
+    gap: 126px;
+  }
+}
+
+/* Media для popup  */
+
+@media (max-width: 520px) {
+  .Application__text,.textarea,.button__send
+   {
+    width: 280px;
+}
+
+}
+@media (max-width: 500px) {
+  .wrapper {
+    width: 460px;
+  }
+
+  .display {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  
+}
+
+@media (max-width: 340px) {
+  .wrapper {
+    width: 300px;
+  }
+
+  .column22 {
+    margin-top: 20px;
+  }
+}
