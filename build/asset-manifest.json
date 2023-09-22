@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/intercom/static/css/main.43237665.css",
+    "main.js": "/intercom/static/js/main.f153348e.js",
+    "static/media/sbp.svg": "/intercom/static/media/sbp.5e5df0b02f70fb178395.svg",
+    "index.html": "/intercom/index.html",
+    "static/media/card.svg": "/intercom/static/media/card.16c060eba2c239aa6c34.svg",
+    "static/media/x.svg": "/intercom/static/media/x.e2dc53bceebd9b549af7.svg",
+    "main.43237665.css.map": "/intercom/static/css/main.43237665.css.map",
+    "main.f153348e.js.map": "/intercom/static/js/main.f153348e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43237665.css",
+    "static/js/main.f153348e.js"
+  ]
+}
